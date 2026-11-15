@@ -1,131 +1,175 @@
-<div align="center">
+<!-- ============================================================
+  ELROOT LABS — GitHub profile README
+  Repo: github.com/elrootlabs/elrootlabs  (must match username)
+  Brand: monochrome + cyan accent (#00E5FF)
+============================================================= -->
 
-<img src="https://elrootlabs.com/logo.png" width="100" alt="Elroot Labs Logo" />
+<p align="center">
+  <img src="./assets/banner.svg" alt="Elroot Labs — Engineering intelligence. Building what's next." width="100%"/>
+</p>
 
-# ELROOT LABS
+<p align="center">
+  <a href="https://elrootlabs.com/">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=900&color=00E5FF&center=true&vCenter=true&width=720&lines=Building+AI-native+software+%26+SaaS+platforms;Engineering+robots+%26+connected+hardware;Shipping+edge+intelligence+that+runs+anywhere;From+India%2C+for+the+world." alt="Typing intro"/>
+  </a>
+</p>
 
-### ENGINEERING INTELLIGENCE. BUILDING WHAT'S NEXT.
+<p align="center">
+  <a href="https://elrootlabs.com/"><img src="https://img.shields.io/badge/Website-elrootlabs.com-00E5FF?style=for-the-badge&logo=googlechrome&logoColor=black&labelColor=0d1117" alt="Website"/></a>
+  <a href="https://x.com/elrootlabs"><img src="https://img.shields.io/badge/X-@elrootlabs-ffffff?style=for-the-badge&logo=x&logoColor=white&labelColor=0d1117" alt="X"/></a>
+  <a href="https://instagram.com/elrootlabs"><img src="https://img.shields.io/badge/Instagram-elrootlabs-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0d1117" alt="Instagram"/></a>
+  <a href="mailto:hello@elrootlabs.com"><img src="https://img.shields.io/badge/Email-hello@elrootlabs.com-ffffff?style=for-the-badge&logo=maildotru&logoColor=white&labelColor=0d1117" alt="Email"/></a>
+  <a href="https://github.com/elrootlabs-org"><img src="https://img.shields.io/badge/Org-elrootlabs--org-ffffff?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="GitHub org"/></a>
+</p>
 
-**AI · DEEP TECH · ROBOTICS · INTELLIGENT SYSTEMS**
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=elrootlabs&label=PROFILE%20VIEWS&color=00e5ff&style=flat-square&labelColor=0d1117" alt="Profile views"/>
+</p>
 
-Building intelligent software, connected hardware, and next-generation technology.
+<img src="./assets/divider.svg" width="100%" alt=""/>
 
-[Website](https://elrootlabs.com) · [GitHub](https://github.com/elrootlabs) · [Contact](mailto:hello@elrootlabs.com)
-
-</div>
-
----
-
-## THE LAB
-
-Elroot Labs is an Indian deep-tech company focused on engineering intelligent systems across software, artificial intelligence, robotics, and connected hardware.
-
-We explore complex technical problems and build practical systems designed for real-world applications, combining AI-native software architecture with hardware-first thinking.
-
-Our focus is on building technology that is useful, scalable, and engineered to last.
-
-## ENGINEERING DOMAINS
+## `> whoami`
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="58%" valign="top">
 
-### Artificial Intelligence
+```ts
+const elrootLabs = {
+  type:      "Deep-tech lab",
+  base:      "India 🇮🇳",
+  mission:   "Engineering intelligence. Building what's next.",
 
-Intelligent applications, AI agents, workflow automation, and AI-native architectures.
+  domains: [
+    "Artificial Intelligence",
+    "Software Engineering",
+    "Robotics & IoT",
+    "Edge Intelligence",
+  ],
 
-</td>
-<td width="50%" valign="top">
+  stack: {
+    frontend: ["React", "Next.js", "TypeScript", "Tailwind"],
+    backend:  ["Node.js", "Python", "FastAPI"],
+    infra:    ["Cloudflare", "Vercel", "Supabase", "Firebase"],
+    hardware: ["Raspberry Pi", "Arduino", "ESP32"],
+  },
 
-### Software Engineering
+  principles: [
+    "Ship the smallest thing that proves the idea",
+    "Hardware-first thinking, AI-native software",
+    "Built to be useful. Built to last.",
+  ],
 
-Production-oriented software, SaaS platforms, APIs, backend systems, and scalable infrastructure.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### Robotics & IoT
-
-Embedded systems, connected devices, robotics, and intelligent hardware interfaces.
-
-</td>
-<td width="50%" valign="top">
-
-### Edge Intelligence
-
-Resource-efficient computing, local inference, and AI systems operating closer to the hardware.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### Industrial Automation
-
-Intelligent control systems, process automation, and software-hardware integration.
+  status: "🟢 shipping",
+} as const;
+```
 
 </td>
-<td width="50%" valign="top">
+<td width="42%" valign="top">
 
-### Digital Products
+### ⚡ The Lab
 
-Technology platforms and software products designed around real-world problems.
+Elroot Labs is an Indian deep-tech company engineering intelligent systems across **software, AI, robotics and connected hardware**.
+
+We take on hard technical problems and turn them into practical systems for the real world.
+
+> *"Useful. Scalable. Engineered to last."*
+
+### 🧪 Currently in the lab
+
+- 🏫 **School OS**: AI operating system for schools
+- 🕶️ **VisionAR**: AR ads that bring posters to life
+- 🤖 **Robotics & IoT**: edge devices with local inference
+- 🚀 **SaaS portfolio**: shipping fast, scaling winners
 
 </td>
 </tr>
 </table>
 
-## WHAT WE BUILD
+<img src="./assets/divider.svg" width="100%" alt=""/>
 
-**Intelligent Systems**
+## `> ls ./domains`
 
-AI-powered applications, agentic workflows, and automation systems that connect intelligence with practical execution.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Software Platforms**
+#### 🧠 Artificial Intelligence
+Intelligent applications, AI agents, workflow automation and AI-native architectures.
 
-Scalable SaaS products, backend infrastructure, APIs, and integrated digital experiences.
+</td>
+<td width="50%" valign="top">
 
-**Hardware & Robotics**
+#### 💻 Software Engineering
+Production-grade software, SaaS platforms, APIs, backend systems and scalable infrastructure.
 
-Exploration across embedded computing, connected devices, robotics, and edge intelligence.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-**Engineering Infrastructure**
+#### 🤖 Robotics & IoT
+Embedded systems, connected devices, robotics and intelligent hardware.
 
-Reusable tools, technical foundations, and systems designed for maintainability, security, and long-term development.
+</td>
+<td width="50%" valign="top">
 
-## ENGINEERING PRINCIPLES
+#### 📡 Edge Intelligence
+Resource-efficient computing, local inference and AI systems that run where the data lives.
 
-- **First principles:** Understand the problem before choosing the technology.
-- **Architecture first:** Build coherent systems rather than disconnected features.
-- **Security by design:** Treat privacy, access control, and security as engineering requirements.
-- **Hardware-aware thinking:** Account for physical constraints, compute, and efficiency.
-- **Production-minded development:** Prioritize reliability, maintainability, and practical deployment.
-- **Continuous experimentation:** Research, prototype, test, measure, and improve.
+</td>
+</tr>
+</table>
 
-## OPEN SOURCE & RESEARCH
+<img src="./assets/divider.svg" width="100%" alt=""/>
 
-This GitHub organization is where we share selected engineering projects, experiments, tools, and technical work.
+## `> cat ./stack`
 
-Explore our public repositories to follow what we're building.
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,python,cpp,react,nextjs,tailwind,nodejs&theme=dark" alt="Languages and frameworks"/><br/>
+  <img src="https://skillicons.dev/icons?i=supabase,firebase,postgres,cloudflare,vercel,docker,linux,git&theme=dark" alt="Infra and tooling"/><br/>
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,raspberrypi,arduino,blender,figma,vscode&theme=dark" alt="AI, hardware and design"/>
+</p>
 
-We value clear documentation, reproducible results, thoughtful architecture, and engineering that solves meaningful problems.
+<img src="./assets/divider.svg" width="100%" alt=""/>
 
-## CONNECT
+## `> git log --stats`
 
-**ELROOT LABS**
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=elrootlabs&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=ffffff&icon_color=00e5ff&text_color=c9d1d9&ring_color=00e5ff&rank_icon=github" alt="GitHub stats"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=elrootlabs&layout=compact&langs_count=8&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=c9d1d9" alt="Top languages"/>
+</p>
 
-AI. Software. Hardware. Intelligence.
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=elrootlabs&hide_border=true&background=0d1117&ring=00E5FF&fire=00E5FF&currStrkNum=FFFFFF&sideNums=FFFFFF&currStrkLabel=00E5FF&sideLabels=C9D1D9&dates=8B949E&stroke=1F2933" alt="Streak stats"/>
+</p>
 
-India · Building for a global future.
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=elrootlabs&bg_color=0d1117&color=c9d1d9&line=00e5ff&point=ffffff&area=true&area_color=00e5ff&hide_border=true&custom_title=Elroot%20Labs%20%E2%80%94%20Contribution%20Graph" alt="Contribution graph" width="100%"/>
+</p>
 
-[elrootlabs.com](https://elrootlabs.com) · [hello@elrootlabs.com](mailto:hello@elrootlabs.com)
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=elrootlabs&theme=onestar&no-frame=true&no-bg=true&margin-w=6&column=7" alt="Trophies"/>
+</p>
 
----
+<!-- Snake eats your contribution grid. Generated by .github/workflows/snake.yml -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/elrootlabs/elrootlabs/output/github-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/elrootlabs/elrootlabs/output/github-snake.svg"/>
+    <img alt="Contribution snake" src="https://raw.githubusercontent.com/elrootlabs/elrootlabs/output/github-snake-dark.svg" width="100%"/>
+  </picture>
+</p>
 
-<div align="center">
+<img src="./assets/divider.svg" width="100%" alt=""/>
 
-*Build with intent. Engineer with precision.*
+## `> ./contact.sh`
 
-</div>
+<p align="center">
+  <b>Building something hard? Let's engineer it together.</b><br/><br/>
+  <a href="mailto:hello@elrootlabs.com"><img src="https://img.shields.io/badge/Start%20a%20project-hello@elrootlabs.com-00E5FF?style=for-the-badge&logo=gmail&logoColor=black&labelColor=0d1117" alt="Start a project"/></a>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:05070a,50:0b2a33,100:00e5ff&height=120&section=footer" alt="" width="100%"/>
+</p>

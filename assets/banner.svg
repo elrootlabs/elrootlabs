@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Elroot Labs — Engineering Intelligence. Building What's Next.">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.07"/>
+    </pattern>
+    <radialGradient id="glow" cx="78%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scan" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00e5ff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="word" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#9aa4b2"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="340" rx="18"/></clipPath>
+    <style>
+      .mono { font-family: 'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace; }
+      .sans { font-family: 'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif; }
+      .scanline { animation: scan 6s linear infinite; }
+      @keyframes scan { 0% { transform: translateY(-80px); } 100% { transform: translateY(420px); } }
+      .ring1 { transform-origin: 940px 170px; animation: spin 24s linear infinite; }
+      .ring2 { transform-origin: 940px 170px; animation: spin 16s linear infinite reverse; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; }
+      .d1 { animation-delay: .4s; } .d2 { animation-delay: .8s; } .d3 { animation-delay: 1.2s; } .d4 { animation-delay: 1.6s; }
+      @keyframes pulse { 0%,100% { opacity: .25; } 50% { opacity: 1; } }
+      .trace { stroke-dasharray: 6 10; animation: flow 3s linear infinite; }
+      @keyframes flow { to { stroke-dashoffset: -64; } }
+      .blink { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+
+
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="340" fill="#05070a"/>
+    <rect width="1200" height="340" fill="url(#dots)"/>
+    <rect width="1200" height="340" fill="url(#glow)"/>
+
+    <!-- circuit traces -->
+    <g fill="none" stroke="#00e5ff" stroke-opacity="0.45" stroke-width="1.4">
+      <path class="trace" d="M640 60 H760 L800 100 H860"/>
+      <path class="trace" d="M640 280 H740 L790 230 H850"/>
+      <path class="trace" d="M1030 120 H1090 L1120 90 H1200"/>
+      <path class="trace" d="M1030 220 H1100 L1130 250 H1200"/>
+    </g>
+    <g fill="#00e5ff">
+      <circle class="pulse" cx="860" cy="100" r="3.5"/>
+      <circle class="pulse d1" cx="850" cy="230" r="3.5"/>
+      <circle class="pulse d2" cx="1030" cy="120" r="3.5"/>
+      <circle class="pulse d3" cx="1030" cy="220" r="3.5"/>
+      <circle class="pulse d4" cx="640" cy="60" r="3"/>
+    </g>
+
+    <!-- orbital core -->
+    <g fill="none">
+      <circle cx="940" cy="170" r="96" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+      <g class="ring1"><circle cx="940" cy="170" r="78" stroke="#ffffff" stroke-opacity="0.85" stroke-width="2" stroke-dasharray="180 40 60 210"/></g>
+      <g class="ring2"><circle cx="940" cy="170" r="58" stroke="#00e5ff" stroke-width="2" stroke-dasharray="40 30 120 175"/></g>
+      <circle cx="940" cy="170" r="34" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
+    </g>
+    <circle class="pulse" cx="940" cy="170" r="7" fill="#00e5ff"/>
+    <text x="940" y="290" text-anchor="middle" class="mono" font-size="11" fill="#5b6675" letter-spacing="3">CORE · ONLINE</text>
+
+    <!-- wordmark -->
+    <g class="rise">
+      <text x="72" y="92" class="mono" font-size="13" fill="#00e5ff" letter-spacing="4">// ELROOT LABS — EST. INDIA</text>
+    </g>
+    <g class="rise r2">
+      <text x="68" y="168" class="sans" font-size="76" font-weight="800" fill="url(#word)" letter-spacing="2">ELROOT LABS</text>
+    </g>
+    <g class="rise r3">
+      <text x="72" y="210" class="sans" font-size="20" font-weight="600" fill="#e6edf3" letter-spacing="1.5">Engineering intelligence. Building what's next.</text>
+    </g>
+    <g class="rise r4">
+      <rect x="72" y="238" width="330" height="34" rx="8" fill="#0d1117" stroke="#1f2933"/>
+      <text x="88" y="260" class="mono" font-size="13" fill="#8b949e">AI <tspan fill="#00e5ff">·</tspan> DEEP TECH <tspan fill="#00e5ff">·</tspan> ROBOTICS <tspan fill="#00e5ff">·</tspan> IoT <tspan fill="#00e5ff">·</tspan> SaaS</text>
+      <text x="72" y="306" class="mono" font-size="12" fill="#3fb950">● <tspan fill="#5b6675">systems nominal — shipping</tspan><tspan class="blink" fill="#e6edf3"> _</tspan></text>
+    </g>
+
+    <!-- scan line -->
+    <rect class="scanline" x="0" y="0" width="1200" height="60" fill="url(#scan)" opacity="0.5"/>
+    <rect width="1200" height="340" rx="18" fill="none" stroke="#1f2933" stroke-width="2"/>
+  </g>
+</svg>
